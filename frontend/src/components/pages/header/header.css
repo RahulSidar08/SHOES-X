@@ -1,0 +1,26 @@
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(34, 34, 37);
+    padding: 50px;
+    width: 100%;
+    position: relative;
+
+}
+
+.items{
+    position: absolute;
+    left: 180px;
+}
+
+
+.items2{
+    display: flex;
+    gap: 30px;
+}
+
+.icons{
+    display: flex;
+    gap: 5px;
+}

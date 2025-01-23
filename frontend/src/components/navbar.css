@@ -1,0 +1,46 @@
+.navbar{
+    position: relative;
+}
+.nav-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 1280px;
+    padding: 10px;
+    justify-content: space-between;
+    transition: all ease-in-out;
+  }
+  
+  .nav-link{
+    display: flex;
+    gap: 20px;
+  }
+  
+  .login{
+    background-color: rgb(250, 28, 28);
+    color: white;
+    font-weight: 600;
+    padding: 0.6rem;
+    border: none;
+    border-radius: 0.3rem;
+  }
+  .logo{
+    width: 6rem;
+    height: 3rem;
+    border-radius: 0.2rem;
+  }
+  .sticky-content{
+    transition: all 1s;
+    position: relative;
+    top: 5px;
+    box-shadow: 10px 10px 10px lightblue ;
+  }
+  .btns{
+    display: flex;
+    gap: 20px;
+  }
+
+  NavLink{
+    color: blue;
+  }

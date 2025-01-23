@@ -1,0 +1,13 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family:sans-serif;
+}
+
+
+body{
+  background-color: rgb(32, 32, 52);
+  color: white;
+}
