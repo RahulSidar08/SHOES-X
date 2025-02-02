@@ -4,7 +4,7 @@ import { Link, NavLink } from "react-router-dom";
 import { ToastContainer, toast } from "react-toastify";
 import { handleError, handleSuccess } from "../../utils";
 import { LOGIN_URL } from "../../utils";
-
+import { useNavigate } from "react-router-dom";
 export const Login = () => {
   const [loginInfo, setLoginInfo] = useState({
     firstName: "",
@@ -23,7 +23,6 @@ export const Login = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     const { firstName, lastName, email, password } = loginInfo;
-    console.log(loginInfo);
     if (!firstName || !lastName || !email || !password) {
       return handleError("All fields are mandatory");
     }
@@ -49,7 +48,6 @@ export const Login = () => {
       } else if (!success) {
         handleError(message);
       }
-      console.log(result);
     } catch (error) {
       handleError(error);
     }
