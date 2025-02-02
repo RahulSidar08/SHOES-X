@@ -1,9 +1,11 @@
 import React from "react";
 import nike from "../components/nike.png"
-import { Link } from "react-router-dom";
-import "./maincontent.css"
+import { Link, useNavigate } from "react-router-dom";
+import "./herosection.css";
 
 export const HeroSection = () => {
+
+
   return (
     <>
       <div className="hero-content">

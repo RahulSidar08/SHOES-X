@@ -1,0 +1,60 @@
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+}
+
+
+.container{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 30px;
+    overflow: auto;
+}
+
+.box{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.image{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    border: 2px solid green;
+}
+
+.box img{
+    width: 60%;
+    height: 200px;
+}
+
+.title{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.desc{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.desc p {
+    padding-left: 10px;
+    max-width: 350px;
+}
+
+.pagebutton{
+    display: flex;
+    gap: 20px;
+}
+.pagebutton button{
+    padding: 10px;
+}

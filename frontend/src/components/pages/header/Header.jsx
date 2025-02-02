@@ -11,12 +11,11 @@ export const Header = () => {
         <div className="items">
           <div>
             <p>Created By Rahul Sidar</p>
-            <p>Contact: rahulsidar@gmail.com</p>
           </div>
 
           <div className="items2">
-            <p>Let's Connect </p>
             <div className="icons">
+            <p>Let's Connect </p>
               <Link>
                 <FaFacebookF />
               </Link>

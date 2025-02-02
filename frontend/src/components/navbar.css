@@ -15,6 +15,7 @@
   .nav-link{
     display: flex;
     gap: 20px;
+    color: white;
   }
   
   .login{
@@ -39,8 +40,4 @@
   .btns{
     display: flex;
     gap: 20px;
-  }
-
-  NavLink{
-    color: blue;
   }

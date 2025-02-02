@@ -61,7 +61,6 @@ export const Signup = () => {
     <>
       <div className="cont">
         <div className="container-1">
-          <p className="para" style={{ fontFamily: "sans-serif", fontSize:'20px'}}>Create Your Account </p>
           <form onSubmit={handleSubmit} className="form-data">
             <label htmlFor="firstName">First Name </label>
             <input

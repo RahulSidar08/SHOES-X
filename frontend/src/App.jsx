@@ -5,6 +5,7 @@ import {  createBrowserRouter ,Form,RouterProvider } from 'react-router-dom'
 import { Login } from './components/pages/Login'
 import {Signup} from "./components/pages/Signup"
 import { Header } from './components/pages/header/Header'
+import { Shop } from './components/pages/shop/Shop'
 const appRouter = createBrowserRouter([
   {
     path : '/',
@@ -29,6 +30,11 @@ const appRouter = createBrowserRouter([
       <Navbar/>
       <Signup/>
       <Header/>
+    </div>
+  },{
+    path : "/shop",
+    element : <div>
+      <Shop/>
     </div>
   }
 ])
